@@ -7,7 +7,7 @@ CREATE TABLE series(
   end_date TEXT
 );
 
-CREATE TABLE Sub-Genre(
+CREATE TABLE subgenres(
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
