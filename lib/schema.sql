@@ -1,10 +1,6 @@
 CREATE TABLE series(
   id INTEGER PRIMARY KEY,
-  title TEXT,
-  category TEXT,
-  funding_goal INTEGER,
-  start_date TEXT,
-  end_date TEXT
+  title TEXT
 );
 
 CREATE TABLE subgenres(
@@ -27,7 +23,7 @@ CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
-  species TEXT,
+  species TEXT
   
 );
 
