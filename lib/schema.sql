@@ -22,3 +22,10 @@ CREATE TABLE books(
   title TEXT,
   year TEXT
 );
+
+CREATE TABLE characters(
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  year TEXT
+);
+
