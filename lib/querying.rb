@@ -16,7 +16,7 @@ end
 
 def select_name_and_series_subgenres_of_authors
   "Write your SQL query here"
-  
+  "SELECT author.name, series.subgenre_id"
 end
 
 def select_series_title_with_most_human_characters
